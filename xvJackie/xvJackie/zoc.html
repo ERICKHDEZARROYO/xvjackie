@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>MIS XV AÑOS - INVITACIÓN</title>
+     <script src="https://kit.fontawesome.com/61057a381e.js" crossorigin="anonymous"></script>
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="jquery.countdown.css" />
+
+     <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+     <!-- MENSAJE -->
+
+     <div class="cuadro">
+          <!-- <p id="One" >Hay momentos en la vida que imaginamos, soñamos y 
+               esperamos uno de esos momentos ha llegado.</p><br><br> -->
+
+                         <!-- Start Countdown -->       
+          
+          <h1 class="Titulo-XV"> Mis xv</h1>
+                              
+          <h2 class="Titulo-Principal"> Jacqueline </h2><br>
+	
+          <p id="Two"> Con la bendición de Dios y de mis padres:</p>
+          <p id="Tree">María del Rosario Vélez Guzmán</p><br>
+          <p id="TreeY">&</p><br>
+          <p id="Tree">Miguel Ángel Dávila Villegas.</p><br>
+                          
+          <p id="For"> Tenemos el honor de invitarlos a la misa de acción de gracias que se ofrecerá en la Iglesia La Lupita A las 7:00 pm.</p>
+          <p id="For"> Después de la ceremonia religiosa agradecemos su presencia para celebrar en el salón Platinum A las 8:30 pm.</p>
+
+          <!-- <p id="Five">que se ofrecerá en la Iglesia La Lupita</p>
+          <p id="Six">A las 7:00 pm.</p><br><br> -->
+                         
+            <h3 class="Titulo-Madrina">Mis madrinas</h3>
+             <p id="Seven"> Citlali Cruz Guzmán.</p>
+             <p id="Seven"> Xóchitl Cruz Guzmán.</p>
+     </div>
+
+     <!-- FECHA -->
+
+     <div class="fecha">
+          <h1 class="dia"> 19 de Noviembre del 2023 </h1>
+     </div>
+
+     <!-- RELOJ CUENTA REGRESIVA -->
+     
+     <div class="Reloj">
+          <div id="cuenta"></div>
+     </div>
+
+
+     <!-- DESTINO -->
+
+     <div class="Destino">
+               <h1 class="Titulo_1"> ¿Comó llegar? </h1>
+          <div class="lugar">
+               <img class="Reunion" src="./Galeria/ICONO IGLESIA.png" id="misa"> 
+               <img class="Reunion" src="./Galeria/ICONO-REGALO.png" id="regalo">
+          </div>   
+               <p class="iglesia"><label for="btn-modal"> La lupita </label> </p> <p class="fiesta"> <label for="evento-salon"> Salón Platinum </label> </p>
+               
+       
+     </div>
+
+
+     <!--Ventana Modal IGLESIA-->
+     <input type="checkbox" id="btn-modal">
+     
+     <div class="container-modal">
+        <div class="content-modal">
+            <h2>¡Dirección para la Parroquia!</h2>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30143.872515065374!2d-96.16704266203189!3d19.19589835997185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c346a69004e373%3A0xc202d2a3d5184c0a!2sIglesia%20La%20Lupita!5e0!3m2!1ses-419!2smx!4v1697249053891!5m2!1ses-419!2smx" width="100%" height="450" name="Misaframe"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            <div class="btn-cerrar">
+                <label for="btn-modal">Cerrar</label>
+            </div>
+        </div>
+        <label for="btn-modal" class="cerrar-modal"></label>
+     </div>
+
+     <!--Fin de Ventana Modal IGLESIA -->
+
+     <!--Ventana Modal EVENTO SALÓN -->
+     <input type="checkbox" id="evento-salon">
+     
+     <div class="container-salon">
+        <div class="content-salon">
+            <h2>¡Dirección para el Evento!</h2>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30143.78074945548!2d-96.18283559853562!3d19.19639934354405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c346a8b4e1f2d1%3A0x2c2bc5480a8c0c32!2sSal%C3%B3n%20Platinum%20Eventos!5e0!3m2!1ses-419!2smx!4v1697248836392!5m2!1ses-419!2smx"  width="100%" height="300" name="Salonframe"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            <div class="evento-close">
+                <label for="evento-salon"> Cerrar </label>
+            </div>
+        </div>
+        <label for="evento-salon" class="close-salon"></label>
+     </div>
+
+     <!--Fin de Ventana Modal SALÓN -->
+
+
+     <!-- ASISTENCIA -->
+     <div class="Asistencia">
+          
+               <h1 class="Titulo_2"> Confirmar asistencia </h1>
+
+          <main>
+                    <a href="https://api.whatsapp.com/send/?phone=8131064454&text&type=phone_number&app_absent=0" class="btn-link"><i class="fa-solid fa-phone"></i></a> 
+                    <a href="https://api.whatsapp.com/send/?phone=8131064454&text&type=phone_number&app_absent=0" class="btn-what"><i class="fa-brands fa-whatsapp"></i></a> 
+                    <p class="llamar"> Llámame </p> <p class="what"> Contáctame </p>
+                    
+          </main>
+     </div>
+
+     <!-- FOTOGRAFÍAS -->
+
+      <!--image slider start-->
+    <div class="slider">
+               <h1 class="Titulo_3"> Fotografías </h1>
+          <div class="slides">
+               <!--radio buttons start-->
+               <input type="radio" name="radio-btn" id="radio1">
+               <input type="radio" name="radio-btn" id="radio2">
+               <input type="radio" name="radio-btn" id="radio3">
+               <input type="radio" name="radio-btn" id="radio4">
+               <input type="radio" name="radio-btn" id="radio5">
+               <input type="radio" name="radio-btn" id="radio6">
+               <input type="radio" name="radio-btn" id="radio7">
+               <input type="radio" name="radio-btn" id="radio8">
+               <input type="radio" name="radio-btn" id="radio9">
+               <input type="radio" name="radio-btn" id="radio10">
+               <input type="radio" name="radio-btn" id="radio11">
+               <input type="radio" name="radio-btn" id="radio12">
+               <input type="radio" name="radio-btn" id="radio13">
+               <!--FIN radio buttons start-->
+
+               <!--slide images start-->
+               <div class="slide first">
+                    <img src="./Galeria/cero.jpg" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/one.jpg" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/two.jpg" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/tree.jpg" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/for.jpg" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/five.jpg" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/six.jpg" alt="">
+               </div>
+
+               <div class="slide">
+                    <img src="./Galeria/seis.jpg" alt="">
+               </div>
+               <div class="slide">
+                    <img src="./Galeria/siete.jpg" alt="">
+               </div>
+               <div class="slide">
+                    <img src="./Galeria/dies.jpg" alt="">
+               </div>
+               <div class="slide">
+                    <img src="./Galeria/doce.jpg" alt="">
+               </div>
+               <div class="slide">
+                    <img src="./Galeria/catorce.jpg" alt="">
+               </div>
+               <!--FIN slide images end-->
+
+               <!--AUTOMATICO DEl BOTON la navigation start-->
+               <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                    <div class="auto-btn6"></div>
+                    <div class="auto-btn7"></div>
+                    <div class="auto-btn8"></div>
+                    <div class="auto-btn9"></div>
+                    <div class="auto-btn10"></div>
+                    <div class="auto-btn11"></div>
+                    <div class="auto-btn12"></div>
+                    <div class="auto-btn13"></div>
+                    <input type="radio" name="radio-btn" id="radio1">
+               </div>
+                <!--FIN automatic navigation end-->
+
+                <!--Ejecucion de radio buttons end-->
+          </div>
+         
+     </div>
+          <!--image slider end-->
+
+     <!-- FIN DE FOTOGRAFÍA-->
+
+     <!-- CÓDIGO JAVA -->
+     <script src="Js/simplyCountdown.min.js"></script>
+	<script src="Js/countdown.js"></script>
+     <script src="Js/foto.js"></script>
+</body>
+</html>
