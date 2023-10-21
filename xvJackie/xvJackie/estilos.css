@@ -1,0 +1,1800 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+     background: url(./Galeria/fondoInvitacion.jpg) no-repeat fixed center center; 
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     left: 0;
+     top: 0;
+     padding-right: 70px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+ }
+
+ ::-webkit-scrollbar-thumb{
+    background: #b56463;
+    border-radius: 8px;
+ }
+
+/******************************************************************/
+
+
+/*------------- INDEX ----------------------------------------*/
+
+.cuadro {
+	background-color: #f9030300;
+	opacity: .9;
+	width: 48%;
+	margin: 40px auto;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+#One{
+    color: #b56463;
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+    
+    padding-left: 10%;
+}
+
+#Onee{
+    color: #b56463;
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+    
+    padding-left: 17%;
+}
+
+.Titulo-XV{
+    color: #c18209;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+
+.Titulo-Principal {
+    font-family: 'Great Vibes', cursiva;
+    font-size: 80px;
+    color: #c18209;
+    font-weight: 400;
+    text-align: center;
+}
+
+#Two{
+    color: #000;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+}
+
+#Tree{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    Color: #000;
+    
+}
+
+#TreeY{
+    font-family: 'Satisfy', cursive;
+    Color: #000;
+    text-align: center;
+    
+}
+
+#For{
+    color: #000;
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+    padding-left: 4%;
+    text-align: center;
+}
+#Five{
+    color: #000;
+    
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+    padding-left: 10%;
+}
+#Six{
+    color: #000;
+    
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+    padding-left: 17%;
+}
+
+.Titulo-Madrina{
+    color: #000;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursiva;
+    font-weight:400;
+}
+
+#Seven{
+    font-size: 34px;
+    font-family: 'Satisfy', cursive;
+    Color: #000;
+    text-align: center;
+}
+
+
+
+/*************** FEECHA *************/
+.fecha {
+	background-color: #f9030300;
+	opacity: .8;
+	width: 48%;
+	margin: 40px auto;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.dia {
+    font-family: 'Great Vibes', cursive;
+    font-size: 65px;
+    color: #c18209;
+	text-decoration: none;
+    font-weight:400;
+}
+
+/*  ----- Cuenta Regresiva ----- */
+.Reloj {
+	background-color: #f9030300;
+	opacity: .8;
+	width: 48%;
+	margin: 10px auto;
+	border-radius: 20px;
+     
+}
+
+
+#cuenta {
+	display: flex;
+	justify-content: center;
+	color: #c18209;
+    font-family: 'Great Vibes', cursive;
+    background-color: #e1d48a;
+    border-radius: 16px;
+    text-align: center;
+}
+
+
+.simply-section {
+	background-color: #f9030300;
+	width: 150px;
+	height: 120px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 60px;
+	font-weight: 400;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 36px;
+}
+
+
+
+/*------------- COMO LLEGAR  ----------------------------------------*/
+
+.Destino {
+   background-color: #f9030300;
+   opacity: .8;
+   width: 48%;
+   margin: 30px auto;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+
+.Titulo_1 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 70px;
+	color: #c18209;
+    text-decoration: none;  
+    text-align: center;
+}
+
+/* .lugar{
+    padding-left: 140px;
+} */
+
+.Reunion{
+    width: 40%;
+}
+
+#misa{
+  padding-right:15%;
+}
+
+
+#regalo{
+padding-left: 12%;
+}
+
+.iglesia {
+	color:  #000;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+	font-size: 35px;
+	padding-left: 9%;
+    float: left;
+ }
+
+ .fiesta {
+	color:  #000;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+	font-size: 35px;
+	padding-left: 68%;
+}
+
+.Destino label{
+	cursor: pointer;
+}
+
+/*:::Fin de llegar :::*/
+
+
+
+/*:::Ventana Modal de DESTINO:::*/
+#btn-modal{
+    display: none;
+}
+.container-modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-modal:checked ~ .container-modal{
+    display: flex;
+}
+
+.content-modal{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-modal h2{
+    margin-bottom: 15px;
+    color: #c18209;
+}
+.content-modal p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-modal .btn-cerrar{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-modal .btn-cerrar label{
+    padding: 7px 10px;
+    background-color: #b56463;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-modal .btn-cerrar label:hover{
+    background-color:#185E83;
+}
+.cerrar-modal{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+
+
+
+/*:::Ventana Modal DE DESTINO :::*/
+#evento-salon{
+    display: none;
+}
+.container-salon{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#evento-salon:checked ~ .container-salon{
+    display: flex;
+}
+
+.content-salon{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-salon h2{
+    margin-bottom: 15px;
+    color: #c18209;
+}
+.content-salon p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.content-salon .evento-close{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-salon .evento-close label{
+    padding: 7px 10px;
+    background-color: #b56463;
+    color: #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-salon .evento-close label:hover{
+    background-color:#185E83;
+}
+.close-salon{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+
+/*------------- ASISTENCIA  ----------------------------------------*/
+
+.Asistencia {
+	background-color: #f9030300;
+	opacity: .8;
+	width: 48%;
+	margin: 30px auto;
+	padding: 20px;
+	border-radius: 20px;
+ }
+ 
+ .Titulo_2 {
+	font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 70px;
+	color: #c18209;
+	text-decoration: none;  
+	display: flex;
+    justify-content: center;
+	margin-bottom: 5%;
+    text-align: center;
+ }
+ 
+ .btn-link{
+	color: #af1c30;
+	font-size: 65px;
+	text-decoration: none;
+	position: absolute;
+	display: flex; 
+	justify-content: left;
+	align-items: left;
+	padding-left: 9%;
+ }
+
+ .btn-what{
+	color: #af1c30;
+	font-size: 65px;
+	text-decoration: none;
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	padding-right: 20%;
+ }
+ 
+ .llamar {
+	color:  #000;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+	font-size: 35px;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	padding-left: 18%;
+	float: left;
+	margin-top: 5%;
+ }
+
+ .what {
+	color:  #000;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+	font-size: 35px;
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	padding-right: 15%;
+	margin-top: 5%;
+}
+ 
+
+/*-------------- FOTOGRAFÍAS ------------------*/
+
+.Titulo_3{
+	font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 70px;
+	color: #c18209;
+ }
+
+.slider{
+    background-color: #f9030300;
+    opacity: .8;
+	margin: 50px auto;
+	padding: 20px;
+    width: 700px;
+    height: 650px;
+    border-radius: 12px;
+    overflow: hidden;
+    object-fit: fill;
+  }
+  
+  .slides{
+    width: 500%;
+    height:600px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 650px;
+    height: 500px;
+  }
+
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  #radio5:checked ~ .first{
+    margin-left: -80%;
+  }
+
+  #radio6:checked ~ .first{
+    margin-left: -100.3%;
+  }
+
+  #radio7:checked ~ .first{
+    margin-left: -120%;
+  }
+
+  #radio8:checked ~ .first{
+    margin-left: -140%;
+  }
+  #radio9:checked ~ .first{
+    margin-left: -160%;
+  }
+  #radio10:checked ~ .first{
+    margin-left: -180%;
+  }
+  #radio11:checked ~ .first{
+    margin-left: -200%;
+  }
+  #radio12:checked ~ .first{
+    margin-left: -220%;
+  }
+  #radio13:checked ~ .first{
+    margin-left: -240%;
+  }
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    margin-top: 450px;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #b56463;
+    padding: 4px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 20px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #b56463;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #b56463;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #b56463;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #b56463;
+  }
+
+  #radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #b56463;
+  }
+
+  #radio6:checked ~ .navigation-auto .auto-btn6{
+    background: #b56463;
+  }
+
+  #radio7:checked ~ .navigation-auto .auto-btn7{
+    background: #b56463;
+  }
+
+  #radio8:checked ~ .navigation-auto .auto-btn8{
+    background: #b56463;
+  }
+  #radio9:checked ~ .navigation-auto .auto-btn9{
+    background: #b56463;
+  }
+  #radio10:checked ~ .navigation-auto .auto-btn10{
+    background: #b56463;
+  }
+  #radio11:checked ~ .navigation-auto .auto-btn11{
+    background: #b56463;
+  }
+  #radio12:checked ~ .navigation-auto .auto-btn12{
+    background: #b56463;
+  }
+  #radio13:checked ~ .navigation-auto .auto-btn13{
+    background: #b56463;
+  }
+/******************************************* RESPONSIVE ******************************************/
+
+/*Haciendo la página Responsive*/
+
+@media screen and (max-width: 1367px){
+    
+    .cuadro{
+        background-color: #f9030300;
+    }
+    #One{
+        font-size: 24px;
+        padding-left: 8%;
+    }
+    
+    #Onee{
+        font-size: 24px;
+        padding-left: 16%;
+    }
+    
+    .Titulo-XV{
+        font-size: 55px;
+        text-align: center;
+    }
+    
+    .Titulo-Principal {
+        text-align: center;
+        font-size: 80px;
+    }
+    
+    #Two{
+        font-size: 24px;
+    }
+    
+    #Tree{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    #TreeY{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #For{
+        font-size: 23px;
+        text-align: center;
+    }
+    #Five{
+        font-size: 24px;
+        padding-left: 8%;
+    }
+    #Six{
+        font-size: 24px;
+        padding-left: 15%;
+    }
+    
+    .Titulo-Madrina{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #Seven{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    /* HORARIO*/
+    .fecha{
+        width: 48%;
+    }
+
+    .dia{
+        text-align: center;
+        font-size: 60px;
+    }
+
+     /* RELOJ */
+     .Reloj{
+        width: 48%;
+    }
+
+    .simply-section {
+        width: 140px;
+        height: 90px;
+    }
+    
+    .simply-amount {
+        font-size: 46px;
+    }
+    
+    .simply-word {
+        font-size: 28px;
+    }
+
+    /* DESTINO */
+      .Destino{
+        width: 48%;
+    }
+
+    .Titulo_1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    /* .lugar{
+        padding-left: 120px;
+    } */
+    #regalo{
+        width: 40%;
+        object-fit: contain;
+    }
+    
+    #misa{
+        width: 40%;
+        object-fit: contain;
+        margin-left: 13%;
+    }
+    
+    .iglesia{
+        font-size: 32px;
+        padding-left: 71px;
+    }
+
+    .fiesta{
+        font-size: 32px;
+    }
+
+
+    .Asistencia {
+        width: 48%;
+     }
+     
+     .Titulo_2 {
+        font-size: 50px;
+        margin-bottom: 5%;
+        text-align: center;
+     }
+     
+     .btn-link{
+        font-size: 70px;
+        padding-left: 9%;
+     }
+    
+     .btn-what{
+        font-size: 70px;
+        padding-right: 24%;
+     }
+     
+     .llamar {
+        font-size: 32px;
+        padding-left: 19%;
+        margin-top: 5%;
+     }
+    
+     .what {
+        font-size: 32px;
+        padding-right: 21%;
+        margin-top: 5%;
+    }
+
+    .Titulo_3{
+        text-align: center;
+     }
+    
+    .slider{
+        width: 620px;
+        height: 600px;
+      }
+      
+      .slides{
+        width: 460%;
+        height:400px;
+        display: flex;
+      }
+      
+      .slide img{
+        width: 520px;
+        height: 500px;
+        padding-left: 85px;
+      }
+
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 610px;
+        justify-content: center;
+        margin-top: 460px;
+      }
+}
+
+
+
+/*:::RESPONSIVE Ventana Modal:::*/
+@media screen and (max-width:1080px) {
+    .content-modal{
+        width: 90%;
+    }
+
+    .content-salon{
+        width: 90%;
+    }
+
+    .cuadro{
+        background-color: #f9030300;
+    }
+
+    #One{
+        font-size: 20px;
+        padding-left: 4%;
+    }
+    
+    #Onee{
+        font-size: 20px;
+        padding-left: 12%;
+    }
+    
+    .Titulo-XV{
+        font-size: 55px;
+    }
+    
+    .Titulo-Principal {
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    #Two{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #Tree{
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    #For{
+        font-size: 18px;
+        text-align: center;
+    }
+    #Five{
+        font-size: 20px;
+        padding-left: 4%;
+    }
+    #Six{
+        font-size: 20px;
+        padding-left: 14%;
+    }
+    
+    .Titulo-Madrina{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #Seven{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    /* HORARIO*/
+    .fecha{
+        width: 48%;
+    }
+
+    .dia{
+        font-size: 33px;
+        text-align: center;
+    }
+
+     /* RELOJ */
+     .Reloj{
+        width: 48%;
+    }
+
+    .simply-section {
+        width: 140px;
+        height: 90px;
+    }
+    
+    .simply-amount {
+        font-size: 40px;
+    }
+    
+    .simply-word {
+        font-size: 26px;
+    }
+
+    /* DESTINO */
+      .Destino{
+        width: 48%;
+    }
+
+    .Titulo_1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* .lugar{
+        padding-left: 80px;
+    } */
+    #regalo{
+        width: 40%;
+        object-fit: contain;
+    }
+    
+    #misa{
+        width: 40%;
+        object-fit: contain;
+        margin-left: 12%;
+    }
+    
+    .iglesia{
+        font-size: 32px;
+        padding-left: 41px;
+    }
+
+    .fiesta{
+        font-size: 32px;
+    }
+
+
+    .Asistencia {
+        width: 48%;
+     }
+     
+     .Titulo_2 {
+        font-size: 40px;
+        margin-bottom: 5%;
+        text-align: center;
+     }
+     
+     .btn-link{
+        font-size: 60px;
+        padding-left: 9%;
+     }
+    
+     .btn-what{
+        font-size: 60px;
+        padding-right: 24%;
+     }
+     
+     .llamar {
+        font-size: 32px;
+        padding-left: 16%;
+        margin-top: 5%;
+     }
+    
+     .what {
+        font-size: 32px;
+        padding-right: 18%;
+        margin-top: 5%;
+    }
+
+    /*Fotos*/
+
+    .Titulo_3{
+        text-align: center;
+     }
+    
+    .slider{
+        width: 480px;
+        height: 660px;
+        
+      }
+      
+      .slides{
+        width: 500%;
+        height:500px;
+        display: flex;
+        
+      }
+      
+      .slide img{
+        width: 580px;
+        height: 500px;
+        padding-right: 90px;
+      }
+
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 500px;
+        justify-content: center;
+        margin-top: 450px;
+      }
+}
+
+
+/*:::F RESPONSIVE Fin Ventana Modal:::*/
+
+@media screen and (max-width: 720px){
+    .cuadro{
+        background-color: #f9030300;
+        width: 85%;
+    }
+
+    #One{
+        font-size: 22px;
+        padding-left: 5%;
+    }
+    
+    #Onee{
+        font-size: 22px;
+        padding-left: 13%;
+    }
+    
+    .Titulo-XV{
+        font-size: 55px;
+        text-align: center;
+    }
+    
+    .Titulo-Principal {
+        text-align: center;
+        font-size: 70px;
+    }
+    
+    #Two{
+        text-align: center;
+    }
+    
+    #Tree{
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    #For{
+        font-size: 20px;
+        text-align: center;
+    }
+    #Five{
+        font-size: 22px;
+        padding-left: 6%;
+    }
+    #Six{
+        font-size: 22px;
+        padding-left: 15%;
+    }
+    
+    .Titulo-Madrina{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    #Seven{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    /* HORARIO*/
+    .fecha{
+        width: 85%;
+    }
+
+    .dia{
+        font-size: 37px;
+        text-align: center;
+    }
+
+     /* RELOJ */
+     .Reloj{
+        width: 85%;
+    }
+
+    .simply-section {
+        width: 140px;
+        height: 90px;
+    }
+    
+    .simply-amount {
+        font-size: 40px;
+    }
+    
+    .simply-word {
+        font-size: 26px;
+    }
+
+    /* DESTINO */
+      .Destino{
+        width: 85%;
+    }
+
+    .Titulo_1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* .lugar{
+        padding-left: 80px;
+    } */
+    #regalo{
+        width: 40%;
+        object-fit: contain;
+        margin-left: 32px;
+    }
+    
+    #misa{
+        width: 40%;
+        object-fit: contain;
+        margin-left: 1%;
+    }
+    
+    .iglesia{
+        font-size: 32px;
+        padding-left: 2%;
+    }
+
+    .fiesta{
+        font-size: 32px;
+    }
+
+
+    .Asistencia {
+        width: 85%;
+     }
+     
+     .Titulo_2 {
+        font-size: 40px;
+        margin-bottom: 5%;
+        text-align: center;
+     }
+     
+     .btn-link{
+        font-size: 50px;
+        padding-left: 14%;
+     }
+    
+     .btn-what{
+        font-size: 50px;
+        padding-right: 26%;
+     }
+     
+     .llamar {
+        font-size: 32px;
+        padding-left: 15%;
+        margin-top: 5%;
+     }
+    
+     .what {
+        font-size: 32px;
+        padding-right: 18%;
+        margin-top: 5%;
+    }
+
+    /*Fotos*/
+
+    .Titulo_3{
+        text-align: center;
+     }
+    
+    .slider{
+        width: 530px;
+        height: 660px;
+        
+      }
+      
+      .slides{
+        width: 500%;
+        height:500px;
+        display: flex;
+        
+      }
+      
+      .slide img{
+        width: 580px;
+        height: 500px;
+        padding-right: 90px;
+      }
+
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 500px;
+        justify-content: center;
+        margin-top: 450px;
+      }
+   
+}
+
+@media screen and (max-width: 416px){
+
+    .cuadro{
+        background-color: #f9030300;
+        width: 106%;
+        margin: 20px;
+    }
+
+    #One{
+        font-size: 14px;
+        padding-left: 5%;
+    }
+    
+    #Onee{
+        font-size: 14px;
+        padding-left: 13%;
+    }
+    
+    .Titulo-XV{
+        font-size: 38px;
+        text-align: center;
+    }
+    
+    .Titulo-Principal {
+   
+        font-size: 48px;
+        padding-left: 2%;
+        text-align: center;
+    }
+    
+    #Two{
+        font-size: 15px;
+    }
+    
+    #Tree{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    #For{
+        font-size: 13px;
+        padding-left: 2%;
+        text-align: center;
+    }
+    #Five{
+        font-size: 14px;
+        padding-left: 5%;
+    }
+    #Six{
+        font-size: 14px;
+        padding-left: 14%;
+    }
+    
+    .Titulo-Madrina{
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    #Seven{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    /* HORARIO*/
+    .fecha{
+        width: 106%;
+        margin: 20px;
+    }
+
+    .dia{
+        font-size: 24px;
+        text-align: center;
+    }
+
+     /* RELOJ */
+     .Reloj{
+        width: 106%;
+        margin: 20px;
+    }
+
+    .simply-section {
+        width: 120px;
+        height: 70px;
+    }
+    
+    .simply-amount {
+        font-size: 30px;
+    }
+    
+    .simply-word {
+        font-size: 16px;
+    }
+
+    /* DESTINO */
+      .Destino{
+        width: 106%;
+        margin: 20px;
+    }
+
+    .Titulo_1{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    /* .lugar{
+        padding-left: 60px;
+    } */
+    #regalo{
+        width: 38%;
+        object-fit: contain;
+    }
+    
+    #misa{
+        width: 44%;
+        object-fit: contain;
+    }
+    
+    .iglesia{
+        font-size: 20px;
+        padding-left: 16px;
+    }
+
+    .fiesta{
+        font-size: 23px;
+    }
+
+
+    .Asistencia {
+        width: 106%;
+        margin: 20px;
+     }
+     
+     .Titulo_2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 5%;
+     }
+     
+     .btn-link{
+        font-size: 40px;
+        padding-left: 18%;
+     }
+    
+     .btn-what{
+        font-size: 40px;
+        padding-right: 26%;
+     }
+     
+     .llamar {
+        font-size: 24px;
+        padding-left: 18%;
+        margin-top: 5%;
+     }
+    
+     .what {
+        font-size: 24px;
+        padding-right: 20%;
+        margin-top: 5%;
+    }
+
+    /*Fotos*/
+
+    .Titulo_3{
+        font-size: 48px;
+        text-align: center;
+     }
+    
+    .slider{
+        width: 106%;
+        margin: 20px;
+        height: 520px;
+      }
+      
+      .slides{
+        width: 590%;
+        height: 500px;
+      }
+      
+      .slide img{
+        width: 420px;
+        height: 400px;
+        object-fit: cover;
+        padding-left: 10px;
+      }
+
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 370px;
+        justify-content: center;
+        margin-top: 380px;
+      }
+
+      .navigation-auto div{
+        border: 2px solid #b56463;
+        padding: 2px;
+        border-radius: 10px;
+      }
+}
+
+@media screen and (max-width: 394px){
+
+    .cuadro{
+        width: 106%;
+        margin: 20px;
+    }
+
+    #One{
+        font-size: 14px;
+        padding-left: 5%;
+    }
+    
+    #Onee{
+        font-size: 14px;
+        padding-left: 13%;
+    }
+    
+    .Titulo-XV{
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .Titulo-Principal {
+        text-align: center;
+        font-size: 45px;
+        padding-left: 4%;
+    }
+    
+    #Two{
+        font-size: 13px;
+    }
+    
+    #Tree{
+        font-size: 18px;
+    }
+    
+    #For{
+        font-size: 12px;
+        padding-left: 4%;
+        text-align: center;
+    }
+    #Five{
+        font-size: 12px;
+        padding-left: 8%;
+    }
+    #Six{
+        font-size: 12px;
+        padding-left: 17%;
+    }
+    
+    .Titulo-Madrina{
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    #Seven{
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    /*Fotos*/
+
+    .Titulo_3{
+        font-size: 48px;
+        text-align: center; 
+     }
+    
+    .slider{
+        width: 106%;
+        margin: 20px;
+        height: 520px;
+      }
+      
+      .slides{
+        width: 590%;
+        height: 500px;
+      }
+      
+      .slide img{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        padding-left: 0.5px;
+      }
+
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 340px;
+        justify-content: center;
+        margin-top: 380px;
+      }
+
+      .navigation-auto div{
+        border: 2px solid #b56463;
+        padding: 2px;
+        border-radius: 10px;
+      }
+}
+
+@media screen and (max-width: 382px){
+
+    .cuadro{
+        background-color: #f9030300;
+        width: 106%;
+        margin: 20px;
+    }
+
+    #One{
+        font-size: 12px;
+        padding-left: 6%;
+    }
+    
+    #Onee{
+        font-size: 12px;
+        padding-left: 14%;
+    }
+    
+    .Titulo-XV{
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .Titulo-Principal {
+        text-align: center;
+        font-size: 45px;
+        padding-left: 2%;
+    }
+    
+    #Two{
+        font-size: 12px;
+    }
+    
+    #Tree{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #Tree{
+        font-size: 14px;
+    }
+    
+    #For{
+        font-size: 12px;
+        padding-left: 2%;
+        text-align: center;
+    }
+    #Five{
+        font-size: 12px;
+        padding-left: 7%;
+    }
+    #Six{
+        font-size: 13px;
+        padding-left: 14%;
+    }
+    
+    .Titulo-Madrina{
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    #Seven{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* HORARIO*/
+    .fecha{
+        width: 106%;
+        margin: 20px;
+    }
+
+    .dia{
+        font-size: 22px;
+        text-align: center;
+    }
+
+     /* RELOJ */
+     .Reloj{
+        width: 106%;
+        margin: 20px;
+    }
+
+    .simply-section {
+        width: 120px;
+        height: 70px;
+    }
+    
+    .simply-amount {
+        font-size: 30px;
+    }
+    
+    .simply-word {
+        font-size: 16px;
+    }
+
+    /* DESTINO */
+      .Destino{
+        width: 106%;
+        margin: 20px;
+    }
+
+    .Titulo_1{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    /* .lugar{
+        padding-left: 60px;
+    } */
+    #regalo{
+        width: 38%;
+        object-fit: contain;
+    }
+    
+    #misa{
+        width: 44%;
+        object-fit: contain;
+    }
+    
+    .iglesia{
+        font-size: 20px;
+        padding-left: 13px;
+    }
+
+    .fiesta{
+        font-size: 22px;
+    }
+
+
+    .Asistencia {
+        width: 106%;
+        margin: 20px;
+     }
+     
+     .Titulo_2 {
+        font-size: 36px;
+        margin-bottom: 5%;
+        text-align: center;
+     }
+     
+     .btn-link{
+        font-size: 36px;
+        padding-left: 18%;
+     }
+    
+     .btn-what{
+        font-size: 38px;
+        padding-right: 26%;
+     }
+     
+     .llamar {
+        font-size: 24px;
+        padding-left: 18%;
+        margin-top: 5%;
+     }
+    
+     .what {
+        font-size: 24px;
+        padding-right: 18%;
+        margin-top: 5%;
+    }
+
+    /*Fotos*/
+
+    .Titulo_3{
+        font-size: 48px;
+        text-align: center;
+     }
+    
+    .slider{
+        width: 106%;
+        margin: 20px;
+        height: 520px;
+      }
+      
+      .slides{
+        width: 590%;
+        height: 500px;
+      }
+      
+      .slide img{
+        width: 380px;
+        height: 400px;
+        object-fit: cover;
+        padding-left: 2px;
+      }
+
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 300px;
+        justify-content: center;
+        margin-top: 380px;
+      }
+
+      .navigation-auto div{
+        border: 2px solid #b56463;
+        padding: 2px;
+        border-radius: 10px;
+      }
+}
+
+@media screen and (max-width: 369px){
+
+    .cuadro{
+        background-color: #f9030300;
+        width: 106%;
+        margin: 20px;
+    }
+
+    #One{
+        font-size: 12px;
+        padding-left: 6%;
+    }
+    
+    #Onee{
+        font-size: 12px;
+        padding-left: 14%;
+    }
+    
+    .Titulo-XV{
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .Titulo-Principal {
+        text-align: center;
+        font-size: 40px;
+        padding-left: 2%;
+    }
+    
+    #Two{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    #Tree{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #TreeY{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    #For{
+        font-size: 11px;
+        padding-left: 2%;
+        text-align: center;
+    }
+    #Five{
+        font-size: 12px;
+        padding-left: 5%;
+    }
+    #Six{
+        font-size: 13px;
+        padding-left: 12%;
+    }
+    
+    .Titulo-Madrina{
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    #Seven{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /*Fotos*/
+
+    .Titulo_3{
+        font-size: 48px;
+        text-align: center;
+     }
+    
+    .slider{
+        width: 106%;
+        margin: 20px;
+        height: 520px;
+      }
+      
+      .slides{
+        width: 590%;
+        height: 500px;
+      }
+      
+      .slide img{
+        width: 374px;
+        height: 400px;
+        object-fit: cover;
+        padding-left: 0.5px;
+      }
+
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 300px;
+        justify-content: center;
+        margin-top: 380px;
+      }
+
+      .navigation-auto div{
+        border: 2px solid #b56463;
+        padding: 2px;
+        border-radius: 10px;
+      }
+}

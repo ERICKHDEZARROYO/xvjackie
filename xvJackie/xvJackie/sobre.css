@@ -1,0 +1,333 @@
+/* PROPIEDADES GENERALES */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Great Vibes', cursive;
+ }
+ 
+ body{
+    background-color: #fde9c8;
+     min-height: 80vh;
+ }
+
+ ::-webkit-scrollbar{
+    width: 12px;
+ }
+
+ ::-webkit-scrollbar-thumb{
+    background: #882322;
+    border-radius: 8px;
+ }
+
+ section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    pointer-events: none;
+ }
+
+ section .One{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./Galeria/cartaComputadora.jpg);
+    background-size: 100% 100%;
+ }
+
+
+ section .One#Izquierda{
+    clip-path: polygon(50% 0, 0 0, 0 100%, 50.1% 100%);
+ }
+
+ section .One#Derecha{
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+ }
+
+/*Boton y texto */
+#Open{
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 120px;
+    text-decoration: none;
+    border-radius: 5rem;
+    background:#882322;
+    color:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    padding:.6rem 3rem;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    font-size: 1.7rem;
+}
+
+#Open::before,
+#Open::after{
+    content: '';
+    position: absolute;
+    top:0;
+    height: 100%;
+    width:0%;
+    background:#882322;
+    z-index: -1;
+    transition: .3s linear;
+}
+
+#Open::before{
+    left:0;
+}
+
+#Open::after{
+    right:0;
+}
+
+#Open:hover::before,
+#Open:hover::after{
+    width:100%;
+}
+
+#Texto{
+    position: 10px;
+    color: #000000;
+    margin-top: 80vh;
+
+}
+
+#Texto h1{
+    font-size: 5.4em;
+    text-align: center;
+}
+
+#Texto p{
+    font-size: 2em;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 471px){
+    body{
+        background-color: #fde9c8;
+        min-height: 85vh;
+     }
+
+     section .One{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(./Galeria/sobre.jpg);
+        background-size: 100% 100%;
+     }
+
+    
+     #Texto{
+        margin-top: 48vh;
+    }
+
+     #Texto h1{
+        font-size: 3.2em;
+        text-align: center;
+    }
+    
+    #Texto p{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #Open{
+        left: 50%;
+        margin-top: 120px;
+        padding: 8px 20px;
+        font-size: 1.8em;
+    }
+
+    #Open::before,
+#Open::after{
+    top:0;
+    height: 100%;
+    width:0%;
+    background:#882322;
+    z-index: -1;
+    transition: .3s linear;
+}
+
+#Open::before{
+    left:0;
+}
+
+#Open::after{
+    right:0;
+}
+}
+
+@media screen and (max-width: 461px){
+    body{
+        background-color: #fde9c8;
+        min-height: 85vh;
+     }
+
+     section .One{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(./Galeria/sobre.jpg);
+        background-size: 100% 100%;
+     }
+
+    
+     #Texto{
+        margin-top: 48vh;
+    }
+
+     #Texto h1{
+        font-size: 3.2em;
+        text-align: center;
+    }
+    
+    #Texto p{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #Open{
+        left: 50%;
+        margin-top: 120px;
+        padding: 8px 20px;
+        font-size: 1.8em;
+    }
+
+    #Open::before,
+#Open::after{
+    top:0;
+    height: 100%;
+    width:0%;
+    background:#882322;
+    z-index: -1;
+    transition: .3s linear;
+}
+
+#Open::before{
+    left:0;
+}
+
+#Open::after{
+    right:0;
+}
+}
+
+@media screen and (max-width: 416px){
+    body{
+        background-color: #fde9c8;
+        min-height: 85vh;
+     }
+
+     section .One{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(./Galeria/sobre.jpg);
+        background-size: 100% 100%;
+     }
+
+    
+     #Texto{
+        margin-top: 48vh;
+    }
+
+     #Texto h1{
+        font-size: 3.2em;
+        text-align: center;
+    }
+    
+    #Texto p{
+        font-size: 1em;
+        text-align: center;
+    }
+    #Open{
+        left: 50%;
+        margin-top: 120px;
+        padding: 8px 20px;
+        font-size: 1.8em;
+    }
+
+    #Open::before,
+#Open::after{
+    top:0;
+    height: 100%;
+    width:0%;
+    background:#882322;
+    z-index: -1;
+    transition: .3s linear;
+}
+
+#Open::before{
+    left:0;
+}
+
+#Open::after{
+    right:0;
+}
+}
+
+@media screen and (max-width: 382px){
+    
+    section .One{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(./Galeria/sobre.jpg);
+        background-size: 100% 100%;
+     }
+
+     #Texto{
+        margin-top: 48vh;
+    }
+
+     #Texto h1{
+        font-size: 2.4em;
+        text-align: center;
+    }
+    
+    #Texto p{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #Open{
+        left: 50%;
+        margin-top: 120px;
+        padding: 8px 20px;
+        font-size: 1.8em;
+    }
+
+    #Open::before,
+#Open::after{
+    top:0;
+    height: 100%;
+    width:0%;
+    background:#882322;
+    z-index: -1;
+    transition: .3s linear;
+}
+
+#Open::before{
+    left:0;
+}
+
+#Open::after{
+    right:0;
+}
+}
