@@ -543,6 +543,9 @@ padding-left: 12%;
   #radio13:checked ~ .first{
     margin-left: -240%;
   }
+  #radio14:checked ~ .first{
+    margin-left: -260%;
+  }
   /*css for automatic navigation*/
   
   .navigation-auto{
@@ -608,6 +611,9 @@ padding-left: 12%;
     background: #b56463;
   }
   #radio13:checked ~ .navigation-auto .auto-btn13{
+    background: #b56463;
+  }
+  #radio14:checked ~ .navigation-auto .auto-btn14{
     background: #b56463;
   }
 /******************************************* RESPONSIVE ******************************************/
